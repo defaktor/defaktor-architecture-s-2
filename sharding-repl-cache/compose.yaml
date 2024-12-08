@@ -213,7 +213,7 @@ services:
     ports:
       - 8080:8080
     environment:
-      MONGODB_URL: "mongodb://mongos_router:27020"
+      MONGODB_URL: "mongodb://mongos_router:27018"
       MONGODB_DATABASE_NAME: "somedb"
       REDIS_URL: "redis://redis_1:6379"
 
